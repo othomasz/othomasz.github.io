@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Home</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <meta name="generator" content="GrapesJS Studio">
-  <link rel="stylesheet" href="./style.css">
-  </head>
-  <body id="iau9"><div data-type-role="flex-row" id="iszms" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="iui46" class="gjs-plg-flex-column"><h1 id="ia1gi">Site legal</h1></div></div><section class="gjs-section" id="iwo29"><div class="gjs-container" id="ikal2"><div data-type-role="flex-row" class="gjs-plg-flex-row" id="ik4h8"><div data-type-role="flex-column" class="gjs-plg-flex-column" id="icn0c"><div id="ir4dn"><div id="istyo">sapo no cavalo</div></div></div><div data-type-role="flex-column" class="gjs-plg-flex-column" id="ith0v"><img id="impby" src="assets/a597911e39cd7b80ed6ca9509a888f93.jpg"/></div></div></div></section></body>
+<html lang="pt-br">
+    
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Site</title>
+        <meta name="description" content="Site.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="hero fundo-decorado">
+            <h1><i>Site.</i></h1>
+            <p>É um <i>site</i>, com coisas de <i>sites.</i><br><i style="font-size: 8pt"><span style="font-size: 6pt">por:</span> Thomasz</i></p>
+        </div> 
+        
+        <div class="meiuca">
+            <h2 class="titulin">Fotos <i class="material-icons" style="font-size: 2rem; transform: translateY(5pt); line-height: 16pt;" >photo</i></h2>
+        </div> 
+        
+        <div class="galery">
+            <div class="grid">
+                <div class="photo"><img src="images/1.webp" alt="Imagem 1"></div>
+                <div class="photo"><img src="images/2.webp" alt="Imagem 2"></div>
+                <div class="photo"><img src="images/3.webp" alt="Imagem 3"></div>
+                <div class="photo"><img src="images/4.webp" alt="Imagem 4"></div>
+                <div class="photo"><img src="images/5.webp" alt="Imagem 5"></div>
+                <div class="photo"><img src="images/6.webp" alt="Imagem 6"></div>
+                <div class="photo"><img src="images/8.webp" alt="Imagem 8"></div>
+                <div class="photo"><img src="images/9.webp" alt="Imagem 9"></div>
+                <div class="photo"><img src="images/10.webp" alt="Imagem 10"></div>
+                <div class="photo"><img src="images/11.webp" alt="Imagem 11"></div>
+                <div class="photo"><img src="images/12.webp" alt="Imagem 12"></div>
+                <div class="photo"><img src="images/13.webp" alt="Imagem 13"></div>
+                <div class="photo"><img src="images/14.webp" alt="Imagem 14"></div>
+            </div>
+        </div>
+        
+        
+        <div class="meiuca">
+            <h2 class="titulin">Outras coisas <i class="material-icons" style="font-size: 2rem; transform: translateY(5pt); line-height: 16pt;" >folder</i></h2>
+            </div>
+        
+        
+        <div class="meiuca2  fundo-decorado"><div class="bloco">
+            <h3 class="sla">Jogos e uns trem.</h3>
+            <ul>
+                <li><a class="lista" href="https://othomasz.github.io/tabela-graca/">Tabela da Graça</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/bob">Bob</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/bob-clicker">Bob Clicker</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/bob-runner">Bob Runner</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/bob-knight">Bob Knight</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/flappy-bob">Flappy Bob</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/bob-rocks">Bob Rocks</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/bobs-awaken">Bob's Awaken</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/boburna">Boburna</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/fnauf">Fnauf</a></li>
+                <li><a class="lista" href="https://thomaszng.itch.io/cookie-clicker">"Cookie Clicker"</a></li>
+            </ul>  
+        
+        </div></div>
+        
+        
+        <script>
+            document.querySelectorAll('.photo').forEach(el => {
+                const randomDeg = (Math.random() * 5 - 2.5).toFixed(2); // entre -5 e +5 graus
+                el.style.rotate = `${randomDeg}deg`;
+            });
+        </script>
+    </body>
 </html>
+
