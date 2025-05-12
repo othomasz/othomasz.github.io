@@ -85,13 +85,16 @@ li{
     transition: .1s;
 }
 
-a:link, a:visited {
+li > a:link, a:visited {
     color: #fefae0;
     text-decoration: none;
     transition: .1s;
 }
 
-a:hover{
+
+
+
+li > a:hover{
     transition: .1s;
     color: #bc6c25;
     text-decoration: underline;
@@ -115,17 +118,29 @@ h3{
     transition: .5s;
     color: #606c38;
     box-shadow: 0px 2px #dda15e;
+    text-decoration: none;
 }
 
 .titulin:hover{
     box-shadow: 0px 4px #bc6c25, 0px 8px #dda15e;
     transform: translateY(-6px) scaleY(0.97);
     transition: .5s;
+
+    
+}
+
+.butao:hover{
+    text-decoration: underline;
+    color: #bc6c25;
+}
+
+.butao{
+    text-decoration: none;
 }
 
 .galery {
     text-align: center;
-    padding: 0rem 4rem;
+    padding: 0rem 2rem;
 }
 
 .grid {
